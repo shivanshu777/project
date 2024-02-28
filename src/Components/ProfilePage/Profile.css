@@ -1,0 +1,31 @@
+section{
+    font-weight: bold;
+}
+
+.user-count{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17%;
+    border-radius: 50%;
+    font-size: 3rem;
+    /* color: white; */
+    font-weight: bold;
+    background-color: rgb(151, 235, 207);
+    margin-top: 7%;
+}
+
+/* .profile-left{
+    height: 70vh;
+} */
+
+/* .profile-left-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+

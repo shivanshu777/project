@@ -1,0 +1,75 @@
+.organizer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    width: 80%;
+    margin: 0 auto; /* Center the container on the page */
+    position: relative;
+}
+.organizer-card {
+    display: flex;
+    align-items: center;
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: #f0e7e773;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 16px;
+    height: 40px;
+    position: relative;
+    width: 650px;
+}
+
+.organizer-button button {
+    padding: 3px 7px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  .organizer-container .organizer-name {
+    text-transform: uppercase;
+    color: #333333;
+    font-family: var(--text-md-bold-font-family);
+    font-size: var(--text-md-bold-font-size);
+    font-style: var(--text-md-bold-font-style);
+    font-weight: var(--text-md-bold-font-weight);
+    letter-spacing: var(--text-md-bold-letter-spacing);
+    line-height: var(--text-md-bold-line-height);
+    margin-top: 5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+  .organizer-button button:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+
+/* Responsive Styles */
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column; /* Change to column layout on smaller screens */
+        align-items: flex-start; /* Align items to the start for column layout */
+    }
+
+    .join-button {
+        margin-top: 10px; /* Optional: Add margin between elements in column layout */
+    }
+}

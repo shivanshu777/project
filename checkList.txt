@@ -1,0 +1,3 @@
+event and spot suggestion need to add placeholder
+
+nav menu view group is not working

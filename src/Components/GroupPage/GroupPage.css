@@ -1,0 +1,249 @@
+.body1 {
+  /* border: 3px solid white; */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://onlyinark.com/wp-content/uploads/2017/10/GravityPhotoHeader-700x300.jpg"); /* Adjust the path to your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.dot {
+  border: 2px solid #fff; /* Set the color of the dot */
+  background-color: #f00; /* Set the background color of the dot */
+  border-radius: 50%;
+  width: 6px; /* Set the width and height of the dot */
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.group-container {
+  width: 550px;
+  /* height: 75vw; Set both width and height to the same value for a square */
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align text to the left */
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.group-icon {
+  margin-right: 10px; 
+}
+
+.organizer-info {
+  text-align: centre;
+  color: #07127a;
+
+
+}
+
+.organizer-text {
+ 
+  width: 50%;
+  margin-top: 10px;
+
+}
+.organizer-name {
+  margin-top: 5px;
+ 
+}
+
+.headerh1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#participants-list {
+  max-height: 400px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+#participants {
+  list-style: none;
+  padding: 0;
+  color: #3498db;
+}
+.participant-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.profile-pic img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  border-radius: 50%; /* For a circular shape */
+}
+
+.participant-name {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+#participants li {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+#participants li:hover {
+  background-color: #e0e0e0;
+}
+
+#participants li .participant-name {
+  font-weight: bold;
+}
+
+/* Add this to your CSS file */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+.organizer-info {
+  display: flex;
+  align-items: center;
+}
+/* style.css */
+.date-format {
+  height: 45px;
+  background-color: rgb(255, 239, 96, 0.5);
+  border-radius: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.date-format p {
+  display: inline-block;
+  margin-right: 20px; /* Add margin between date elements */
+}
+
+.profile-pic {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* This creates a circular shape */
+  margin-right: 10px; /* Add margin for spacing between the image and text */
+}
+
+/* CSS */
+.button-32 {
+  padding: 12px 26px;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+  box-shadow:
+    rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: #111111;
+  background-image: radial-gradient(76% 151% at 52% -52%, rgba(255, 255, 255, 0.23) 0%, transparent 100%);
+}
+
+.button-32:hover {
+  filter: brightness(1.1);
+}
+
+.button-32:active {
+  transform: scale(0.95);
+}
+
+
+
+.follow-button,
+.unfollow-button {
+
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+.organizer-container{
+  display: flex;
+  align-items: center;
+  
+}
